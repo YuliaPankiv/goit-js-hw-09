@@ -1,0 +1,26 @@
+.container,
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 5px;
+}
