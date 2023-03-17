@@ -1,0 +1,45 @@
+/* Set the font family and background color for the page */
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style the link to go back to the index page */
+p a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #333;
+}
+
+/* Set the common styles for the container */
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Style the start button */
+button[data-start] {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style the stop button */
+button[data-stop] {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
